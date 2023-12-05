@@ -1,0 +1,27 @@
+nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  grid-column-gap: 30px;
+  margin-top: 30px;
+}
+
+nav .brand {
+  padding: 11px 25px;
+  font-size: 28px;
+  font-weight: 900px;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 35px;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+nav a.active {
+  background: #40af73;
+  color: white;
+}
